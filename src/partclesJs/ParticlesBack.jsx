@@ -22,7 +22,7 @@ function ParticlesBack() {
                 "autoPlay": true,
                 "background": {
                   "color": {
-                    "value": "#000"
+                    "value": "#011620"
                   },
                   "image": "",
                   "position": "",
@@ -34,7 +34,7 @@ function ParticlesBack() {
                   "composite": "destination-out",
                   "cover": {
                     "color": {
-                      "value": "#fff"
+                      "value": "#9ad0eb"
                     },
                     "opacity": 1
                   },
@@ -144,7 +144,7 @@ function ParticlesBack() {
                       "quantity": 5,
                       "particles": {
                         "color": {
-                          "value": "#ff0000",
+                          "value": "#9ad0eb",
                           "animation": {
                             "enable": true,
                             "speed": 400,
@@ -190,7 +190,7 @@ function ParticlesBack() {
                       },
                       "shadow": {
                         "color": {
-                          "value": "#000000"
+                          "value": "#9ad0eb"
                         },
                         "length": 2000
                       }
@@ -247,7 +247,7 @@ function ParticlesBack() {
                     }
                   },
                   "color": {
-                    "value": "#ff0000",
+                    "value": "#9ad0eb",
                     "animation": {
                       "h": {
                         "count": 0,
