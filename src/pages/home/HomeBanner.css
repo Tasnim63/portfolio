@@ -1,0 +1,40 @@
+.home_banner {
+  display: flex;
+  justify-content: space-between;
+}
+.home_banner_content h6,
+h5 {
+  color: aliceblue;
+}
+.home_banner_content h2 {
+  color: #5be4a8;
+}
+.home_banner_content {
+  margin-top: 10%;
+}
+@media screen and (max-width: 724px) {
+  .home_banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .home_banner_content {
+    text-align: center;
+  }
+  .home_banner_image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .home_banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .home_banner_content {
+    text-align: center;
+  }
+  .home_banner_image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

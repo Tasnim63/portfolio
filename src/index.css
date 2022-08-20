@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+SC:wght@300;500;700&family=Edu+VIC+WA+NT+Beginner&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;1,500&family=Oswald:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,600&family=Poppins&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Seaweed+Script&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -10,5 +9,5 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: #031c26;
+  background: #001016;
 }
