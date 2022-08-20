@@ -1,3 +1,8 @@
+.project_card_area {
+ 
+ 
+}
+
 .image_inner {
   overflow: hidden;
 }
@@ -6,6 +11,18 @@
 }
 .image_inner:hover img {
   transform: scale(1.5);
+}
+
+/* card shadow */
+.card {
+  margin-bottom: 15px;
+  border: none;
+}
+.card:hover {
+  box-shadow: 0px 2px 19px 6px rgba(245, 237, 237, 0.5);
+  -webkit-box-shadow: 0px 2px 19px 6px rgba(245, 237, 237, 0.5);
+  -moz-box-shadow: 0px 2px 19px 6px rgba(245, 237, 237, 0.5);
+  transition: 0.5s;
 }
 /* about btn */
 .menu_tab .btn {
@@ -51,24 +68,22 @@
 
 /* card button animation */
 
-
 .card_button {
- 
   position: relative;
 }
 .card_button a {
   position: absolute;
 
   color: #decefb;
-  padding: 8px 16px;
+  padding: 6px 12px;
   font-size: 17px;
   text-decoration: none;
   box-shadow: 10px 10px 50px rgba(159, 156, 189, 0.25);
   overflow: hidden;
 }
 
-.link_button{
-  margin-left: 180px;
+.link_button {
+  margin-left: 170px;
 }
 .card_button a:before {
   content: "";
@@ -150,8 +165,6 @@
   }
 }
 
-
-
 /* ****************(medium  devices) **************** */
 @media screen and (max-width: 1124px) {
   .projects_container {
@@ -171,15 +184,7 @@
     position: relative;
     overflow: hidden;
   }
-  .projects_container {
-    padding: 20px;
-    grid-template-columns: 1fr;
-  }
-  .button_area {
-    display: flex;
 
-    align-items: flex-start;
-  }
   .menu_tab {
     margin: auto;
     width: 50%;

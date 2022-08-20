@@ -1,10 +1,13 @@
-import React from 'react'
-import AllProjects from './AllProjects'
+import React from "react";
+import AllProjects from "./AllProjects";
+import PeojectBanner from "./PeojectBanner";
 
 export default function Projects() {
   return (
-    <div>
+    <>
+      <PeojectBanner></PeojectBanner>
+      <br />
       <AllProjects></AllProjects>
-    </div>
-  )
+    </>
+  );
 }
