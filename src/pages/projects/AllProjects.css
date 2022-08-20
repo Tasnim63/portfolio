@@ -21,10 +21,10 @@
   font-family: "Lobster", cursive;
 }
 .about_btn {
-  color: #9f88ce;
+  color: #8d5af3;
 }
 .about_btn:hover {
-  color: #001016;
+  color: hsl(196, 70%, 9%);
 }
 .menu_tab .btn::before {
   content: "";
@@ -50,13 +50,108 @@
 }
 
 /* card button animation */
-.source_code_btn {
+
+
+.card_button {
+ 
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #9f88ce;
 }
+.card_button a {
+  position: absolute;
+
+  color: #decefb;
+  padding: 8px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow: 10px 10px 50px rgba(159, 156, 189, 0.25);
+  overflow: hidden;
+}
+
+.link_button{
+  margin-left: 180px;
+}
+.card_button a:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 50%;
+  background-color: rgba(187, 186, 193, 0.05);
+}
+.card_button a span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #8148f2, #cab9ea);
+  animation: animated1 2s linear infinite;
+}
+@keyframes animated1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.card_button a span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #8148f2, #cab9ea);
+  animation: animated2 2s linear infinite;
+}
+@keyframes animated2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+.card_button a span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #8148f2, #cab9ea);
+  animation: animated3 2s linear infinite;
+}
+@keyframes animated3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.card_button a span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #8148f2, #cab9ea);
+  animation: animated4 2s linear infinite;
+}
+@keyframes animated4 {
+  0% {
+    transform: translateY(100);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+
 /* ****************(medium  devices) **************** */
 @media screen and (max-width: 1124px) {
   .projects_container {
