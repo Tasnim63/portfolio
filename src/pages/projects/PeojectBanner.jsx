@@ -4,7 +4,7 @@ export default function PeojectBanner() {
   return (
     <>
   
-  <section className="projects_banner">
+  <section className="projects_banner my-4">
   <div className="wraper">
         <h1> wellcome to <br />
                 project page</h1>
@@ -57,24 +57,7 @@ export default function PeojectBanner() {
 
             </div>
   </section>
-        {/* <section className="project_banner_section d-flex   ">
-        
-          <div className="box">
-            <div className="circle   ">
-              <h2>
-                wellcome to <br />
-                project page
-              </h2>
-
-          
-
-            </div>
-
-
-
-
-          </div>
-        </section> */}
+      
      
     </>
   );

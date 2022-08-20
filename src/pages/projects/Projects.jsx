@@ -5,8 +5,10 @@ import PeojectBanner from "./PeojectBanner";
 export default function Projects() {
   return (
     <>
-      <PeojectBanner></PeojectBanner>
-      <br />
+ 
+   <PeojectBanner></PeojectBanner>
+
+   
       <AllProjects></AllProjects>
     </>
   );

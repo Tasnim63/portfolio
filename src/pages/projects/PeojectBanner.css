@@ -1,12 +1,12 @@
 
 /* bubble */
 .projects_banner {
-  
-  margin-bottom: 20%;
+height: 500px;
+
+
 }
 .wraper {
-    position: fixed;
-  height: 50%;
+  height: 500px;
   width: 100%;
   background: #190b35;
   position: absolute;

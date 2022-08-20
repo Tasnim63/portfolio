@@ -1,20 +1,6 @@
-.navbar{
+.navbar {
+  background: #001016;
+}
+.navbar-brand img {
   height: 70px;
-  font-family: 'PT Serif', serif;
-
-}
-.logo_image {
-  height: 100px;
-}
-.logo_image img {
-  object-fit: cover;
-}
-@media screen and (max-width: 724px) {
-  .navbar {
-    background-color: gray;
-    backdrop-filter: 10px;
-  }
-  .logo_image {
-    height: 50px;
-  }
 }
