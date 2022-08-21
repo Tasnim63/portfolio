@@ -1,4 +1,16 @@
-.card{
-    background:#80C0CF;
-   
+.card {
+  background: #80c0cf;
+  color: #082f38;
+}
+.form_icons {
+  font-size: 40px;
+color: #075a6c;
+}
+.btn_form {
+  background: #075a6c;
+  color: #80c0cf;
+}
+.btn_form:hover {
+  background: #088caa;
+  color: #80c0cf;
 }
