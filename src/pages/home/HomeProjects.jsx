@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Menu from "../projects/projectsimage";
 export default function HomeProjects() {
   const [cards, setCards] = useState(Menu);
-
+console.log(setCards);
   if (cards.length) {
     cards.length = 3;
   }
@@ -44,7 +44,7 @@ export default function HomeProjects() {
                           <a
                             className="btn"
                             style={{ color: "#98d9e8" }}
-                            href={card.code}
+                            href={code}
                           >
                             SOURCE_CODE
                             <span></span>
@@ -56,7 +56,7 @@ export default function HomeProjects() {
                           <a
                             className=" link_button me-lg-4 "
                             href={live}
-                            target="_blank"
+                           
                           >
                             live_site
                             <span></span>

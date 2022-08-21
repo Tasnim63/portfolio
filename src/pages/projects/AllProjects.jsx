@@ -90,7 +90,7 @@ export default function AllProjects() {
 
                            
                             <a className=" link_button me-lg-4 "  href={live}
-                              target="_blank">
+                             >
                               live_site
                               <span></span>
                               <span></span>
