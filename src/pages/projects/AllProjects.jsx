@@ -54,20 +54,20 @@ export default function AllProjects() {
               return (
                 <>
                   <div className="col-lg-4 col-md-6 my-3">
-                    <div style={{ background: "#180e2c" }} class="card h-100 ">
+                    <div style={{ background: "#173137" }} class="card h-100 ">
                       <div className="image_inner">
                         <img src={image} class="card-img-top" alt="..." />
                       </div>
                       <div class="card-body">
-                        <h3 style={{ color: "#c6b4ea" }} class="card-title">
+                        <h3 style={{ color: "#a9dfeb" }} class="card-title">
                           {name}
                         </h3>
                         <p style={{ color: "white" }} class="card-text pt-2 ">
                           {details}
                         </p>
-                        <div className="button_area pt-2 pb-5">
+                        <div className="button_area pt-2 ">
                           <div className=" card_button  ">
-                            <a style={{ color: "white" }} href={code_Url}>
+                            <a style={{ color: "#98d9e8" }} href={code_Url}>
                               SOURCE_CODE
                               <span></span>
                               <span></span>

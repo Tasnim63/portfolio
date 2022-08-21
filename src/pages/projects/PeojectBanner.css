@@ -8,11 +8,11 @@ height: 500px;
 .wraper {
   height: 500px;
   width: 100%;
-  background: #190b35;
+  background: #004F70;
   position: absolute;
 }
 .wraper h1 {
-    color: #7131e8;
+    color: #80C0CF;
     font-family: "Pacifico", cursive;
     z-index: 2;
   top: 50%;
@@ -24,7 +24,7 @@ height: 500px;
  
   height: 40px;
   width: 40px;
-  border: 2px solid #ccb8f3;
+  border: 2px solid #80C0CF;
   border-radius: 50%;
   position: absolute;
   top: 5%;
@@ -36,7 +36,7 @@ div .dot {
 
   width: 10px;
   border-radius: 50px;
-  background: #c2b1e2;
+  background: #80C0CF;
   position: absolute;
   top: 20%;
   right: 20%;

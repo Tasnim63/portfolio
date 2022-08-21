@@ -4,7 +4,7 @@ export default function PeojectBanner() {
   return (
     <>
   
-  <section className="projects_banner my-4">
+  <section className="projects_banner ">
   <div className="wraper">
         <h1> wellcome to <br />
                 project page</h1>

@@ -1,4 +1,3 @@
-
 .image_inner {
   overflow: hidden;
 }
@@ -24,22 +23,21 @@
 }
 /* about btn */
 .menu_tab .btn {
-  border: 1px solid #9f88ce;
+  border: 1px solid #98d9e8;
   background: none;
-  padding: 7px 20px;
-  font-size: 20px;
+  padding: 7px 10px;
+  font-size: 25px;
   font-weight: bolder;
   cursor: pointer;
   transition: 0.8s;
   position: relative;
   overflow: hidden;
-  font-family: "Lobster", cursive;
 }
 .about_btn {
-  color: #a789e9;
+  color:#80C0CF;
 }
 .about_btn:hover {
-  color: #090117;
+  color: #0b2b50;
 }
 .menu_tab .btn::before {
   content: "";
@@ -48,8 +46,8 @@
   width: 100%;
   height: 0;
 
-  background: #c0a7f1;
- 
+  background: #80C0CF;
+  z-index: -1;
   transition: 0.8s;
 }
 .about_btn::before {
@@ -72,7 +70,7 @@
 .card_button a {
   position: absolute;
 
-  color: #decefb;
+  color: #80C0CF;
   padding: 6px 12px;
   font-size: 17px;
   text-decoration: none;
@@ -98,7 +96,7 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(to right, #8148f2, #cab9ea);
+  background: linear-gradient(to right, #235e6b, #a9dfeb);
   animation: animated1 2s linear infinite;
 }
 @keyframes animated1 {
@@ -115,7 +113,7 @@
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(to bottom, #8148f2, #cab9ea);
+  background: linear-gradient(to bottom, #235e6b, #a9dfeb);
   animation: animated2 2s linear infinite;
 }
 @keyframes animated2 {
@@ -133,7 +131,7 @@
 
   width: 100%;
   height: 2px;
-  background: linear-gradient(to left, #8148f2, #cab9ea);
+  background: linear-gradient(to left,  #235e6b, #a9dfeb);
   animation: animated3 2s linear infinite;
 }
 @keyframes animated3 {
@@ -151,7 +149,7 @@
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(to top, #8148f2, #cab9ea);
+  background: linear-gradient(to top, #235e6b, #a9dfeb);
   animation: animated4 2s linear infinite;
 }
 @keyframes animated4 {
@@ -171,10 +169,8 @@
 }
 /****************(small  devices) **************** */
 @media screen and (max-width: 724px) {
-  
-    
   .menu_tab .btn {
-    border: 1px solid #5389c7;
+    border: 1px solid #98d9e8;
     background: none;
     padding: 7px 20px;
     font-size: 14px;
