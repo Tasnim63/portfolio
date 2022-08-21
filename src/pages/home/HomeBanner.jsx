@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import bannerimage from "../../assets/images/banner_image.png";
 import image from '../../assets/my_image.png';
-import CV from '../../assets/Tamanna Akter (3).pdf';
+import CV from '../../assets/Tamanna Akter (2).pdf';
 import "./HomeBanner.css";
 
 function HomeBanner() {
