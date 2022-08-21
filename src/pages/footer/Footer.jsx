@@ -25,8 +25,8 @@ export default function Footer() {
         <h2>Contact me with below Links</h2>
         <ul className="social_icons ">
           <li>
-            <a href="#">
-              <i class="https://www.facebook.com/profile.php?id=100074914775563"></i>
+            <a href="https://www.facebook.com/profile.php?id=100074914775563">
+              <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li>
