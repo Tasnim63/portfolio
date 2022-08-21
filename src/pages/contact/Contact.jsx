@@ -41,9 +41,9 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                   <form>
-                    <div className="form-row d-lg-flex">
+                    <div className="form-row gap-1 d-lg-flex">
                       <div className="form-group col-lg-6 col-md-12 col-sm-12 col-12">
-                        <label>First Name</label>
+                        <label className="py-1">First Name</label>
                         <input
                           type="text"
                           className="form-control"
@@ -51,7 +51,7 @@ const Contact = () => {
                         />
                       </div>
                       <div className="form-group col-lg-6 col-md-12 col-sm-12 col-12">
-                        <label>Last Name</label>
+                        <label className="py-1">Last Name</label>
                         <input
                           type="text"
                           className="form-control"
@@ -59,18 +59,18 @@ const Contact = () => {
                         />
                       </div>
                     </div>
-                    <label >Email</label>
-                    <input
+                    <label className="py-1" >Email</label>
+                    <input style={{color:"red"}}
                           type="email"
                           className="form-control"
                           placeholder="Enter Your Email"
                         />
-                        <label >Your Message</label>
+                        <label className="py-1" >Your Message</label>
                         <textarea placeholder="Message" className="form-control mb-3" name="" id="" cols="10" rows="5"></textarea>
                       <div className=" d-flex align-items-center justify-content-between">
                       <div >
-                       <input type="checkbox"  name=" " id="" />
-                        <label> I am not a robot</label>
+                       <input className="py-1 mx-1" type="checkbox"  name=" " id="" />
+                        <label className="py-1"> I am not a robot</label>
                        </div>
                         <button className="btn  btn-primary  outline-none blur-none">Send Message</button>
                       </div>
