@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
 
-<nav className="navbar navbar-expand-lg   navbar-dark">
+<nav className="navbar navbar-expand-lg  sticky-top  navbar-dark">
       <div className="container">
         <a href="/" className="navbar-brand">
           <img src={logo} className="img-fluid logo_image" alt="portfolio_logo" />
