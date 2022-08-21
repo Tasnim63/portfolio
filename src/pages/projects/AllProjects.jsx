@@ -19,30 +19,30 @@ export default function AllProjects() {
         <h2 className=" mt-4 text-center mb-3   text-white">My Projects</h2>
         <div className="manu_tabs container my-4">
           <div className="menu_tab text-center  ">
-            <a onClick={() => setCards(Menu)} className="btn about_btn  m-2">
+            <button onClick={() => setCards(Menu)} className="btn about_btn  m-2">
               ALL
-            </a>
-            <a
+            </button>
+            <button
               className="btn about_btn  m-2"
               onClick={() => filtterItem("html_css")}
             >
               MERN
-            </a>
-            <a
+            </button>
+            <button
               onClick={() => filtterItem("HTML")}
               className="btn about_btn m-2"
             >
               RACT_JS{" "}
-            </a>
-            <a onClick={() => setCards(Menu)} className="btn about_btn  m-2">
+            </button>
+            <button onClick={() => setCards(Menu)} className="btn about_btn  m-2">
               BOOTSTRAP
-            </a>
-            <a
+            </button>
+            <button
               onClick={() => filtterItem("html_css")}
               className="btn about_btn  m-2"
             >
               HTML_CSS
-            </a>
+            </button>
           </div>
         </div>
 

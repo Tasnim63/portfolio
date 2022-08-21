@@ -26,16 +26,16 @@ export default function Footer() {
         <ul className="social_icons ">
           <li>
             <a href="#">
-              <i class="fab fa-facebook"></i>
+              <i class="https://www.facebook.com/profile.php?id=100074914775563"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/Tasnim63">
               <i class="fab fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/tamanna-akter-95101a228/">
               <i class="fab fa-linkedin"></i>
             </a>
           </li>

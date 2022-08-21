@@ -8,8 +8,8 @@ export default function Navbar() {
 
 <nav className="navbar navbar-expand-lg   navbar-dark">
       <div className="container">
-        <a href="#" className="navbar-brand">
-          <img src={logo} className="img-fluid logo_image" alt="logo-picture" />
+        <a href="/" className="navbar-brand">
+          <img src={logo} className="img-fluid logo_image" alt="portfolio_logo" />
         </a>
         <button
           className="navbar-toggler"
