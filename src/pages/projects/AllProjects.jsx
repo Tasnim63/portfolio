@@ -11,34 +11,41 @@ export default function AllProjects() {
 
     setCards(UpdateItem);
   };
-
+  console.log(cards);
   return (
     <>
       {" "}
       <div className="project_card_area ">
-        <h2 className=" mt-4 text-center mb-3   text-white">My Projects</h2>
+        <h2   className=" mt-4 text-center mb-3   text-white">My Projects</h2>
         <div className="manu_tabs container my-4">
           <div className="menu_tab text-center  ">
-            <button onClick={() => setCards(Menu)} className="btn about_btn  m-2">
+            <button  data-aos="zoom-in" data-aos-duration="1000"
+              onClick={() => setCards(Menu)}
+              className="btn about_btn  m-2"
+            >
               ALL
             </button>
-            <button
+            <button  data-aos="zoom-in" data-aos-duration="1000"
               className="btn about_btn  m-2"
-              onClick={() => filtterItem("html_css")}
+              onClick={() => filtterItem("MERN")}
             >
               MERN
             </button>
-            <button
-              onClick={() => filtterItem("HTML")}
+
+            <button data-aos="zoom-in" data-aos-duration="1000"
+              onClick={() => filtterItem("React")}
               className="btn about_btn m-2"
             >
               RACT_JS{" "}
             </button>
-            <button onClick={() => setCards(Menu)} className="btn about_btn  m-2">
+            <button data-aos="zoom-in" data-aos-duration="1000"
+              onClick={() => filtterItem("Boostrap")}
+              className="btn about_btn  m-2"
+            >
               BOOTSTRAP
             </button>
-            <button
-              onClick={() => filtterItem("html_css")}
+            <button data-aos="zoom-in" data-aos-duration="1000"
+              onClick={() => filtterItem("HTML_CSS")}
               className="btn about_btn  m-2"
             >
               HTML_CSS
@@ -47,10 +54,10 @@ export default function AllProjects() {
         </div>
 
         {/* main section */}
-        <div className="container ">
+        <div     className="container ">
           <div className="row  m-0 p-0 justify-content-center   m-auto">
             {cards.map((card) => {
-              const { image, name, code_Url, live_url, details } = card;
+              const { image, name, code, live, details } = card;
               return (
                 <>
                   <div className="col-lg-4 col-md-6 my-3">
@@ -58,16 +65,22 @@ export default function AllProjects() {
                       <div className="image_inner">
                         <img src={image} class="card-img-top" alt="..." />
                       </div>
+
                       <div class="card-body">
                         <h3 style={{ color: "#a9dfeb" }} class="card-title">
                           {name}
                         </h3>
+
                         <p style={{ color: "white" }} class="card-text pt-2 ">
                           {details}
                         </p>
                         <div className="button_area pt-2 ">
                           <div className=" card_button  ">
-                            <a style={{ color: "#98d9e8" }} href={code_Url}>
+                            <a
+                              className="btn"
+                              style={{ color: "#98d9e8" }}
+                              href={code}
+                            >
                               SOURCE_CODE
                               <span></span>
                               <span></span>
@@ -75,7 +88,9 @@ export default function AllProjects() {
                               <span></span>
                             </a>
 
-                            <a className="link_button me-lg-4 " href={live_url}>
+                           
+                            <a className=" link_button me-lg-4 "  href={live}
+                              target="_blank">
                               live_site
                               <span></span>
                               <span></span>

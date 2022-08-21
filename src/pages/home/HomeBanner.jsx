@@ -2,8 +2,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import bannerimage from "../../assets/images/banner_image.png";
+import image from '../../assets/my_image.png';
+import CV from '../../assets/Tamanna Akter (3).pdf';
 import "./HomeBanner.css";
-import  CV from '../../assets/Tamanna.docx (9).853c97871d925bee71ba.853c97871d925bee71ba (4).pdf'
+
 function HomeBanner() {
   useEffect(() => {
     AOS.init();
@@ -41,6 +43,37 @@ function HomeBanner() {
             <div>
               <img className="img-fluid " src={bannerimage} alt="" />
             </div>
+          </div>
+        </div>
+      </section>
+      <section class=" text-white text-sm-start py-5">
+        <div class="container">
+          <div class="row  banner_content  align-content-center justify-content-between">
+          <div className='col-lg-6 '>
+              <img className=" img-fluid " src={image} alt="" />
+            </div>
+            <div  className=" about_info col-lg-6 ">
+           
+              <h2
+                className=" my-2"
+                style={{
+                  color: "#80C0CF",
+                  fontSize: "45px",
+                  fontFamily: "'Lobster', cursive",
+                }}
+              >
+                About Me
+              </h2>
+              <h6 className="text-light">  I am a junior React js  developer with solid knowledge in
+              different technologies & enough experience in creating & designing
+              super responsive websites.
+             I am comfort in Html 5 , CSS 3,tailwind,daisyUi components ,
+              Bootstrap 5 , JavaScript, ES6, Rest API, React JS React Bootstrap,
+              React Router, Firebase Authentication ,node js ,mongodb and
+              express js.</h6>
+             
+            </div>
+           
           </div>
         </div>
       </section>

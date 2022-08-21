@@ -6,7 +6,8 @@ export default function PeojectBanner() {
   
   <section className="projects_banner ">
   <div className="wraper">
-        <h1> wellcome to <br />
+        <h1   data-aos="zoom-in"
+                  data-aos-delay="1000"> wellcome to <br />
                 project page</h1>
          
               <div>
