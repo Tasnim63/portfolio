@@ -45,7 +45,7 @@
         name:"Vegetable Store",
         live:"https://vegetable-store-tamanna.netlify.app/",
         code:"https://github.com/Tasnim63/vegetable-store",
-        image:"https://html.themexriver.com/organio/assets/img/bg/banner-bg1.jpg"
+        image:"http://uitheme.net/orgomart/images/banner-slider-2.jpg"
     },
     {
         id:6,

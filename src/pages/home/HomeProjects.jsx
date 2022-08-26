@@ -3,9 +3,9 @@ import Menu from "../projects/projectsimage";
 export default function HomeProjects() {
   const [cards, setCards] = useState(Menu);
 console.log(setCards);
-  if (cards.length) {
-    cards.length = 3;
-  }
+  // if (cards.length) {
+  //   cards.length = 3;
+  // }
   return (
     <>
       <h2
