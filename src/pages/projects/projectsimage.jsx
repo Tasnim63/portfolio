@@ -65,6 +65,15 @@
         code:"https://github.com/Tasnim63/education-master",
         image:"https://demo.web3canvas.com/themeforest/unisco/images/slider-3.jpg"
     },
+    {
+        id:8,
+        catgory:"React",
+        details:" I had made this website with html,scss , react ,redux , stripe .I will will pleasure If you visite below live link",
+        name:"BoroBazer",
+        live:"https://borobazer.netlify.app/",
+        code:"https://github.com/Tasnim63/borobazer",
+        image:"https://img.freepik.com/free-photo/top-view-vegetables-fruits-bag_23-2148949707.jpg?w=826&t=st=1672801107~exp=1672801707~hmac=34728875e909c6a51943ba748b17a08bde1841fb303bc9b0a501ddf3784e7898"
+    },
     
    
    
